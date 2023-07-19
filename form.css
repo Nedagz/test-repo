@@ -1,0 +1,29 @@
+h1 {
+    color:brown;
+}
+p{
+    color:blue;
+}
+*{
+    font-size: 20px;
+}
+section p{
+    color:blueviolet;
+}
+p{
+    color:blueviolet;
+}
+h2, h3{
+    color:burlywood;
+}
+section > p{
+    text-decoration:underline;
+    text-decoration-color: red;
+}
+main > section >h3 ~ *{
+    background-color: coral;
+}
+.class-name{
+    background-color: cornflowerblue;
+    font-size:100px;
+}
